@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>YT Thumbnail Preview</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <button id="theme-toggle">Light / Dark</button>
+    <div id="drop-zone">
+        <p>Drag & drop an image here<br>or click to select</p>
+        <input type="file" id="file-input" accept="image/*" hidden />
+    </div>
+
+    <div id="previews">
+        <div class="preview">
+            <p>Normal (16:9)</p>
+            <div class="frame frame-16-9">
+                <img id="img-16-9" />
+            </div>
+        </div>
+
+        <div class="preview">
+            <p>Shorts (9:16)</p>
+            <div class="frame frame-9-16">
+                <img id="img-9-16" />
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
