@@ -1,4 +1,4 @@
-# ▶️ YouTube Thumbnail Preview Tool
+# YouTube Thumbnail Preview Tool
 A simple **HTML tool for previewing thumbnails** for **Shorts** and **long form** videos before uploading to YouTube.
 
 # 📚 Project structure:
